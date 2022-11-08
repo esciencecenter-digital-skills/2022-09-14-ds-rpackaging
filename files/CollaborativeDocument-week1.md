@@ -9,17 +9,6 @@ Welcome to The Workshop Collaborative Document.
 
 This Document is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents.
 
-----------------------------------------------------------------------------
-
-This is the Document for today: [tinyurl.com/rpackaging-week1](https://hackmd.io/B_D159mIQSCxDUKO0ZdEKg?both)
-
-Collaborative Document week 1: [tinyurl.com/rpackaging-week1](https://hackmd.io/B_D159mIQSCxDUKO0ZdEKg?both)
-
-Collaborative Document week 2: [tinyurl.com/rpackaging-week2](https://hackmd.io/m5dLkEQtTr6rofVaLTDH6Q?both)
-
-Collaborative Document week 3: [tinyurl.com/rpackaging-week3](https://hackmd.io/hLOwyjUkQCek-L8Pk0zYyQ?both)
-
-Collaborative Document day 4: [tinyurl.com/rpackaging-week4](https://hackmd.io/gDCDSNw9Q2ynqahKr_SzBA?both) 
 
 ## 👮Code of Conduct
 
@@ -31,7 +20,7 @@ Participants are expected to follow these guidelines:
 * Show courtesy and respect towards other community members.
 
 l.deboer@esciencecenter.nl, b.vreede@esciencecenter.nl
- 
+
 ## ⚖️ License
 
 All content is publicly available under the [Creative Commons Attribution License 4.0](https://creativecommons.org/licenses/by/4.0/).
@@ -54,31 +43,7 @@ Barbara Vreede, Lieke de Boer
 
 ## 🧑‍🙋 Helpers
 
-Eva Viviani, Pranav Chandramouli, Djura Smits, Ji Qi 
-
-### Icebreaker
-What do you want to keep (remembering, or keep doing) from your summer (holidays)?
-- Martine: remembering and keep doing: sailing in Friesland
-- Djura: remembering: supping with my mom
-- Pranav: Vacationing! more specifically hiking/travelling
-- Bas: keep doing - read a book
-- Jessica: lol, I didn't have summer holidays as a research supporter. But I can say, I'll continue working on getting my new house in order. Also gardening!
-- Ji: the beautiful beaches from Lagos, Portugal
-- Kat: Holiday in Scotland (Isles of Skye and Harris)
-- Samar: I remember the chilly and sunny days in front of beach on north coast in Egypt
-- Eric: Dance festivals and renovating the house, trying new sports this summer
-- Barbara: exercising! I got an exercise bike & did a lot of swimming during the summer & it was a nice change from 2 years of covid-sitting-on-my-behind...
-- Pim: remember & keep exploring wine-tourism throughout Europe
-- Rodrigo: I would like to keep my sun tan.
-- Utkarsh: Evening walks when it's still bright even at 10 pm. 
-- Joshua: I also didn't have holiday yet, but the summer was still nice :).
-- Lieke: take time to do nothing every now and then
-- Frank: Hiking Norwegian highlands and not seeing anyone for miles (except my complaining teenage kids...)
-- Venustiano: Beach, mountains, beertjes, mexican food
--
--
-- Eva: waking up at 9 every day and having a creme cornetto with coffee. 
--
+  Viviani, Pranav Chandramouli, Djura Smits, Ji Qi
 
 
 ## 🗓️ Agenda
@@ -96,27 +61,27 @@ Day 1. Wed 14 September 2022
 
 ## 🔧 Exercises
 
-**Q: What problems have you encountered that were the result of messy coding?** 
+**Q: What problems have you encountered that were the result of messy coding?**
 
 
-* Martine: different versions of packages, when getting other persons R project (or mine projec to them), especially Rlang, do not know why
-* Kat: My results differ from that of my collaborator
-* Jessica: not being able to immediately remember what the code means if I haven't used it in a while, having to spend a lot of time refreshing my memory; errors from: typos in functions; and problems with references to files if I accidentally changed where the file is located. It can also be hard to use another person's code from GitHub if it's poorly documented (or documented in a way that assumes you know a certain concept without explaining what that concept might be)
-* Joshua: Bugs 
-* Utkarsh: Not able to understand after few days what I did actually. End up re-doing everything from scratch.
-* Samar: had to repeat the analysis several times cz I did not get a reasonable finding, considering that my assisatnts coded the data well and then discovered the there are a lot of mkstakes in data coding 
-* Anke: breaking something that worked before
+* different versions of packages, when getting other persons R project (or mine projec to them), especially Rlang, do not know why
+* My results differ from that of my collaborator
+* not being able to immediately remember what the code means if I haven't used it in a while, having to spend a lot of time refreshing my memory; errors from: typos in functions; and problems with references to files if I accidentally changed where the file is located. It can also be hard to use another person's code from GitHub if it's poorly documented (or documented in a way that assumes you know a certain concept without explaining what that concept might be)
+* Bugs
+* Not able to understand after few days what I did actually. End up re-doing everything from scratch.
+* had to repeat the analysis several times cz I did not get a reasonable finding, considering that my assisatnts coded the data well and then discovered the there are a lot of mkstakes in data coding
+*  : breaking something that worked before
 * Not remembering what I did and why
-* Frank: "lost" data (pre-)processing steps, "wrong" processing workflow, legacy testing artefacts
-* Venustiano: forget what the code does and how it works, not finding results or source code. Not saving the results after a 2-week running algorithm
-* Federica: not being able to reproduce previous results
-* Rodrigo: I dont have messy code (I wish). I think the worst problem was having a very specific code, an unexpected bug happened and it was VERY hard to track it. At the end it was not even my mistake: I had was that I used a function from another package in a specific way, and that when I updated R and the packages, that specific base version of R had a bug in one function that was called by this function, and it didn't work well with this specific type of call and the type of input I used in this function. So... very hard to track bugs.
-* Pim: messing up the sequence of operations; "just testing this really quickly" (and then it ends up being 90% of unorganized code)
+*  : "lost" data (pre-)processing steps, "wrong" processing workflow, legacy testing artefacts
+*  : forget what the code does and how it works, not finding results or source code. Not saving the results after a 2-week running algorithm
+*  : not being able to reproduce previous results
+*  : I dont have messy code (I wish). I think the worst problem was having a very specific code, an unexpected bug happened and it was VERY hard to track it. At the end it was not even my mistake: I had was that I used a function from another package in a specific way, and that when I updated R and the packages, that specific base version of R had a bug in one function that was called by this function, and it didn't work well with this specific type of call and the type of input I used in this function. So... very hard to track bugs.
+*  : messing up the sequence of operations; "just testing this really quickly" (and then it ends up being 90% of unorganized code)
 * Forgetting I changed a variable somewhere and getting different results and not knowing why
-* Eric: assumptions where made during code, or input files where changed without notice. Non unique variables, variable names which where like a,b, c etc, basically interpret other peoples code is sometimes very diffuclt. Also continue projects after awhile and it takes time to start again. 
-* Eva: not able to improve upon the code without breaking it
-* Valentini: Sometimes loosing my data,or forget the code names or their functions
-* Ji: not only for myself, but also for the others, understanding the code is hard.
+*  : assumptions where made during code, or input files where changed without notice. Non unique variables, variable names which where like a,b, c etc, basically interpret other peoples code is sometimes very diffuclt. Also continue projects after awhile and it takes time to start again.
+*  : not able to improve upon the code without breaking it
+*  : Sometimes loosing my data,or forget the code names or their functions
+*  : not only for myself, but also for the others, understanding the code is hard.
 *
 
 
@@ -128,21 +93,21 @@ If you have trouble finding a package, [try this one](https://github.com/PabRod/
 3. Did it work? What problems did you encounter?
 4. Bonus: take a look at the `DESCRIPTION` file of the package you installed. Did you notice that other packages mentioned in this file were installed also?
 
-- Rodrigo: I installed MetBrewer (https://github.com/BlakeRMills/MetBrewer). It has color palettes inspired by works at the Metropolitan Museum of Art in New York/ devtools::install_github("BlakeRMills/MetBrewer")  / All OK / The packages in DESCRIPTION were already installed
-- Kat: I installed [flexgsea](https://github.com/NKI-CCB/flexgsea-r). I used renv::install("NKI-CCB/flexgsea-r"), but you could also use devtools::install_github("NKI-CCB/flexgsea-r")
-- Utkarsh: I installed CARD package from github repository (https://github.com/YingMa0107/CARD), using `devtools::install_github('YingMa0107/CARD')` command. Yes, it was installed successfully. The packages mentioned in the description were installed as well.
-- Martine: `devtools::install_github("PabRod/kinematics")`, problem: did not know what part of the URL to enter, I mimicked the examples in the help. The description file mentions some packages being installed as well, but I do not know if I did not have them before. 
-- Samar: I tried to use this code'devtools::install_github(MetBrewer) but I receive an error
+-  : I installed MetBrewer (https://github.com/BlakeRMills/MetBrewer). It has color palettes inspired by works at the Metropolitan Museum of Art in New York/ devtools::install_github("BlakeRMills/MetBrewer")  / All OK / The packages in DESCRIPTION were already installed
+-  : I installed [flexgsea](https://github.com/NKI-CCB/flexgsea-r). I used renv::install("NKI-CCB/flexgsea-r"), but you could also use devtools::install_github("NKI-CCB/flexgsea-r")
+-  : I installed CARD package from github repository (https://github.com/YingMa0107/CARD), using `devtools::install_github('YingMa0107/CARD')` command. Yes, it was installed successfully. The packages mentioned in the description were installed as well.
+-  : `devtools::install_github("PabRod/kinematics")`, problem: did not know what part of the URL to enter, I mimicked the examples in the help. The description file mentions some packages being installed as well, but I do not know if I did not have them before.
+-  : I tried to use this code'devtools::install_github(MetBrewer) but I receive an error
 Er
-- Pim: devtools::install_github("tidyverse/dplyr")
-- Eric: Same as Rodrigo, for R 4.2.1 ->Dependacies:Installing 10 packages: colorspace, viridisLite, RColorBrewer, munsell, labeling, farver, scales, isoband, gtable, ggplot2
-- Venustiano: I installed [cowplot] (https://github.com/wilkelab/cowplot). ```devtools::install_github('wilkelab/cowplot')```  
+-  : devtools::install_github("tidyverse/dplyr")
+-  : Same as  , for R 4.2.1 ->Dependacies:Installing 10 packages: colorspace, viridisLite, RColorBrewer, munsell, labeling, farver, scales, isoband, gtable, ggplot2
+-  : I installed [cowplot] (https://github.com/wilkelab/cowplot). ```devtools::install_github('wilkelab/cowplot')```
 Yes, it did work, no problems. Yes, other packages were installed as well.
-- Anke: devtools::install_github("PabRod/kinematics"), ERROR: this R is version 3.6.3, package 'kinematics' requires R >= 3.50, non-zero exit status, solved by using devtools::install_github("bvreede/kinematics")
-- Jessica: I installed devtools::install_github("r-lib/httr"). 
-- Frank: I just went with the default kinematics, all good so far
-- Joshua: Not sure what I installed but it's EPIC:  `devtools::install_github("GfellerLab/EPIC")`
-- Samar: It is working now for two packages 
+-  devtools::install_github("PabRod/kinematics"), ERROR: this R is version 3.6.3, package 'kinematics' requires R >= 3.50, non-zero exit status, solved by using devtools::install_github("bvreede/kinematics")
+-  : I installed devtools::install_github("r-lib/httr").
+-  : I just went with the default kinematics, all good so far
+-  : Not sure what I installed but it's EPIC:  `devtools::install_github("GfellerLab/EPIC")`
+-  : It is working now for two packages
 
 
 ### FOR THOSE WHO HAD AN ERROR with PabRod/kinematics:
@@ -153,118 +118,75 @@ The default package generates `Hello, world!` when the only function`hello()` is
 
 1. Change this function to generate a different output. (Have fun with it, perhaps add an argument or two!)
 2. Build and install the package, and call the function again to see that it works differently.
-- Martine: done
-- Frank: done; also added a more functions and another script
-- Bas
-- Pim: done
-- Jessica: done
-- Venustiano: done
-- Samar: I did that but have an issue `callr::add_hook(hello(mysterycoffee))
-Error in hello(mysterhellycoffee) : unused argument (mysterycoffee)`  
-Samar: I tried putting quotation and had the same issue [callr::add_hook(hello("mysterycoffee"))
-Error in hello("mysterycoffee") : unused argument ("mysterycoffee")] (Martine: do you have an argument in your function?)Samar: how to configure Martine: between the () of function, like function(variablename)hayes it appears in t.Did you do the install again?ar: yes Maybe the teachers have ideas :). I dont think you have to install the package again after you adjusted a function, you can source it again. "Source on Save", I lost my way
-Teachers can probably help :) when you share maybe  Samar: thank you
+-  : done
+-  : done; also added a more functions and another script
+-
+-  : done
+-  : done
+-  : done
+-  : I did that but have an issue `callr::add_hook(hello(mysterycoffee))
+Error in hello(mysterhellycoffee) : unused argument (mysterycoffee)`
+ : I tried putting quotation and had the same issue [callr::add_hook(hello("mysterycoffee"))
+Error in hello("mysterycoffee") : unused argument ("mysterycoffee")] ( : do you have an argument in your function?) : how to configure  : between the () of function, like function(variablename)hayes it appears in t.Did you do the install again?ar: yes Maybe the teachers have ideas :). I dont think you have to install the package again after you adjusted a function, you can source it again. "Source on Save", I lost my way
+Teachers can probably help :) when you share maybe   : thank you
 I meant via the button in the tab build.
 
-- Valentini: i still have trouble with Rtools Do I need to put Rtools on the PATH?it's not clear to me how to do that..
-- Eric:done
-- Utkarsh: Done. Added another function for getting time and greeting. hello() function to take name from user.
-- Anke: done
-- Lana: re-installing r-tools (sounds fun). Done, I don't have administrator rights on the laptop that is why I was worried about the installation. Error is solved. All fine. (Frank: I installed R, RStudio, and RTools in the user's home folder to avoid such issues, used to work well)
-- Joshua: done
-- Kat: done
-- Rodrigo: done 
-- Ranran: done
-- 
+-  : i still have trouble with Rtools Do I need to put Rtools on the PATH?it's not clear to me how to do that..
+-  :done
+-  : Done. Added another function for getting time and greeting. hello() function to take name from user.
+-  : done
+-  : re-installing r-tools (sounds fun). Done, I don't have administrator rights on the laptop that is why I was worried about the installation. Error is solved. All fine. ( : I installed R, RStudio, and RTools in the user's home folder to avoid such issues, used to work well)
+-  : done
+-  : done
+-  : done
+-  : done
+-
 
 
 #### Exercise: Open the DESCRIPTION file. What do you see here?
 
 Take 5 minutes to edit this file with the information it asks. In particular, edit the following fields (when needed): Title, Version, Author, Maintainer, Description. For now, ignore the rest.
 
-- Martine: done
-- Frank: filled in some stuff... 
-- Bas: done
-- Pim: done
-- Jessica: done
-- Venustiano: done
-- Samar:done
-- 
-- Valentini: usethis
-- Eric: Done
-- Utkarsh: Done.
-- Anke: done
-- Lana: done
-- Joshua: done
-- Kat: done
-- Rodrigo: done done
-- Ranran: done
-
-
-
-
-
-
-
-
-
-/// for future exercise, please don't edit! ///
-- Martine: 
-- Frank: 
-- Bas
-- Pim: 
-- Jessica: 
-- Venustiano: 
-- Samar:
-- Valentini: 
-- Eric:
-- Utkarsh: 
-- Anke: 
-- Lana: 
-- Joshua: 
-- Kat: 
-- Rodrigo: 
-- Ranran: 
 
 #### Exercise: change the license of your package.
 
 1. Change the license of your package to Apache, using `usethis::use_apache_license()`. Look at the `DESCRIPTION` and `License` files and see how they have changed.
 2. Change the license of your package to the license you want to use. What function did you use?
 
-- Martine: i choose the example apache
-- Frank: done using MIT 
-- Bas: done. usethis::use_gpl_license(version=3)
-- Pim: done (usethis::use_gpl_license(); TUe recommends either a GPL or MIT/BSD-like license)
-- Jessica: done. I used MIT `usethis::use_mit_license()`
-- Venustiano:done, `usethis::use_agpl3_license()` 
-- Samar: done.. I used usethis::use_apache_license() and it changed to apache 
-- 
-- Valentini: 
-- Eric:
-- Utkarsh: used the agpl license
-- Anke: usethis::use_agpl_license()
-- Lana: done
-- Joshua: done `usethis::use_mit_license()`
-- Kat: 
-- Rodrigo:  `usethis::use_agpl3_license("R")`
-- Ranran: 
+-  : i choose the example apache
+-  : done using MIT
+-  : done. usethis::use_gpl_license(version=3)
+-  : done (usethis::use_gpl_license(); TUe recommends either a GPL or MIT/BSD-like license)
+-  : done. I used MIT `usethis::use_mit_license()`
+-  :done, `usethis::use_agpl3_license()`
+-  : done.. I used usethis::use_apache_license() and it changed to apache
+-
+-  :
+-  :
+-  : used the agpl license
+-  : usethis::use_agpl_license()
+-  : done
+-  : done `usethis::use_mit_license()`
+-  :
+-  :  `usethis::use_agpl3_license("R")`
+-  :
 
 ### Homework for 21 September
 Homework for next week (21 September):
-    
+
 Create a package using your own R project, if you have one (see the last point below if you do not have one). Create functions in the R folder of that package.
 
 Remember the following:
 
 * When you are using external functions inside your package, add double colons `::` before calling that function
 * Separate out different functions, think about main functions and helper functions
-* If you start from a script, you can keep the leftovers (if there are any after separating out functions) in a script that calls your package's functions and runs your workflow. 
-* The following was not discussed in class, but it is very good if **at least one of your functions gives an output** (so, it doesn't just "do" something, like print `Hello World`, it actually creates a data frame, or a vector, or an object of some other kind)! We will see why next week. 
-* Don't forget through `Install (and Restart)` whenever you change anything. 
-* If you are creating your own package, don't forget to update the `DESCRIPTION` file. 
-* If you are not using your own project, take some time to improve the current `make_groups` function and perhaps add another function. 
+* If you start from a script, you can keep the leftovers (if there are any after separating out functions) in a script that calls your package's functions and runs your workflow.
+* The following was not discussed in class, but it is very good if **at least one of your functions gives an output** (so, it doesn't just "do" something, like print `Hello World`, it actually creates a data frame, or a vector, or an object of some other kind)! We will see why next week.
+* Don't forget through `Install (and Restart)` whenever you change anything.
+* If you are creating your own package, don't forget to update the `DESCRIPTION` file.
+* If you are not using your own project, take some time to improve the current `make_groups` function and perhaps add another function.
 
-Don’t worry if you run into issues, this is expected. See if you can fix them, but don't be afraid to bring them next week, so we can solve them together. 
+Don’t worry if you run into issues, this is expected. See if you can fix them, but don't be afraid to bring them next week, so we can solve them together.
 
 ## 🧠 Collaborative Notes
 **How to check your R version**
@@ -315,7 +237,7 @@ Benefit of the semicolon method:
 
 
 #### EXAMPLE OF BAD PRACTICE WHEN LOADING A PACKAGE WITHIN A FUNCTION:
-In this *bad* example, we load the `library(dplyr)` as part of the function `test()` in order to use dplyr's function `add_row()`. 
+In this *bad* example, we load the `library(dplyr)` as part of the function `test()` in order to use dplyr's function `add_row()`.
 
 ```
 test <- function(x){
@@ -347,11 +269,11 @@ install.packages('knitr')
 Press the button `install` in the Rstudio IDE and type in the name of the package.
 
 
-**Third method:** 
+**Third method:**
 Using the package `devtools`'s functions. When we use the method `install.packages()`, the package is installed from [CRAN](https://cran.r-project.org/) (which is R's official package repository). However, if a package is not listed in CRAN, (e.g., if for example the package is still in development, or its newest features have not been updated yet on CRAN) you can install it from github by using `devtools`. For example:
 
 ```
-devtools::install_github(PabRod/kinematics) 
+devtools::install_github(PabRod/kinematics)
 ```
 
 If the installation was successful, when we type:
@@ -365,7 +287,7 @@ We should not see any error.
 Note that packages installed via github are not reviewed, while packages on CRAN are.
 
 # How to create a package
-Go to `File > new project` , or press the button on the R studio IDE (the one with a transparent cube with a green +). This opens up a window where we click on `new directory`, and we choose `R package`. This will open up a window named **Create R Package**. 
+Go to `File > new project` , or press the button on the R studio IDE (the one with a transparent cube with a green +). This opens up a window where we click on `new directory`, and we choose `R package`. This will open up a window named **Create R Package**.
 
 Today we're making a toy example. We're creating a package called `misterycoffee`. The package is saved into a directory that you can see within the `create project as subdirectory of` section. To use version control, click on `create a git repository`. We tick also `Open in new session` (bottom-left part of the window), and then click on `create new project`.
 
@@ -410,17 +332,17 @@ First of all, we delete the default `hello.R` file permanently, and we create a 
 
 Click on the + symbol, and save the new R-file in the `/R` folder. We try to give it a meaningful name: `make_groups.R` (it is a good habit to name function by its goal).
 
-This file will contain a basic skeleton of our function `make_groups()`. This function takes `names` as input, and returns `names_coupled` as output. 
+This file will contain a basic skeleton of our function `make_groups()`. This function takes `names` as input, and returns `names_coupled` as output.
 The goal is to shuffle the elements contained in `names` and arrange them into a matrix. The only constrain we give to this matrix is that it should have 2 columns (`ncol = 2`). Once done that, we want the function to return us the matrix just created.
 
 ```
 make_groups <- function(names){
     #Shuffle the names
     names_shuffled <- sample(names)
-    
+
     #Arrange the names
     names_coupled <- matrix(names_shuffled, ncol = 2)
-    
+
     return(names_coupled)
 }
 ```
@@ -437,15 +359,15 @@ make_groups <- function(names){
 Let's try our make_groups() function. In the console, type:
 
 ```
-make_groups(c("Djura", "Lieke", "Ji", "Eva"))
+make_groups(c("Djura", "Lieke", "Eva", "Ji"))
 ```
 
 This will gives us a matrix with 2 columns:
 
 ```
-     [,1]    [,2]   
+     [,1]    [,2]
 [1,] "Djura" "Lieke"
-[2,] "Eva"   "Ji" 
+[2,] "Eva"   "Ji"
 ```
 
 Let's try to add new names. In the console, type:
@@ -457,7 +379,7 @@ make_groups(c("Djura", "Lieke", "Ji", "Eva", "Barbara", "Pablo"))
 The output now has changed to integrate Barbara and Pablo names:
 
 ```
-     [,1]      [,2]   
+     [,1]      [,2]
 [1,] "Ji"      "Pablo"
 [2,] "Barbara" "Djura"
 [3,] "Eva"     "Lieke"
@@ -470,15 +392,15 @@ We will come back on this later on.
 
 ##### Example
 We can add a helper function `my_sample()` within `make_groups()`. We define this function right after make_groups() in the make_groups.R file and we save the file.
- 
+
 ```
 make_groups <- function(names){
     #Shuffle the names
     names_shuffled <- my_sample(names) #note the changes occur here
-    
+
     #Arrange the names
     names_coupled <- matrix(names_shuffled, ncol = 2)
-    
+
     return(names_coupled)
 }
 
@@ -495,7 +417,7 @@ This time, when we use `make_groups()`, the function will automatically call `my
 
 
 ### Add dependencies within the DESCRIPTION file
-If your package is built upon other packages (e.g., 'knitr'), you can list these packages  within the DESCRIPTION file: 
+If your package is built upon other packages (e.g., 'knitr'), you can list these packages  within the DESCRIPTION file:
 
 ```
 Imports:
@@ -510,7 +432,7 @@ There are two* types of open source licenses:
 - **Permissive:** makes your code open source, but do not extend this feat to code made by someone else, even if it derives directly from your code. Examples of this license: MIT, Apache, BSD.
 - **Viral:** your licenses extends mandatorily to anyone using your code or building upon it. Example of this license: GPL.
 
-##### *there are many licenses, a compehensive list can be found at: https://choosealicense.com/. 
+##### *there are many licenses, a compehensive list can be found at: https://choosealicense.com/.
 
 ### Specify a license within your package
 The license is specified within the DESCRIPTION file. Let's say that we want to use a *permissive* type of license: Apache.
@@ -522,7 +444,7 @@ usethis::use_apache_license()
 ```
 This will automatically add the Apache license to the DESCRIPTION file.
 
-**TIP:** You can explore the wide range of licenses provided by the `usethis` package by typing `usethis::use_` + tab. This will prompt R'studio IDE to suggest you a possible autocompletion (i.e., many other licenses). 
+**TIP:** You can explore the wide range of licenses provided by the `usethis` package by typing `usethis::use_` + tab. This will prompt R'studio IDE to suggest you a possible autocompletion (i.e., many other licenses).
 
 Or you can copy and paste this:
 
@@ -550,7 +472,7 @@ tools::CRAN_package_db() %>%
 ### Tips (what can we improve?)
 - The level is quite low / pacing is slow so far. Perhaps it could be structured in a way that all users can attend a lesson, then the people with issues can stay and solve those.
     - Thanks for the pacing comments! Completely understand that this is somewhat slow for some R users - we want to make sure everyone is on the same page after week 1. Next week, I believe we will dive deeper and introduce a lot more material that's new to experienced R users. Hope to see you again then :)
-- Pacing can be a bit faster. 
+- Pacing can be a bit faster.
     - Thanks for the pacing comments! Completely understand that this is somewhat slow for some R users - we want to make sure everyone is on the same page after week 1. Next week, I believe we will dive deeper and introduce a lot more material that's new to experienced R users. Hope to see you again then :)
 - I would have liked to have more information about the licenses.
 

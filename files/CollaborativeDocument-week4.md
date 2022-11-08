@@ -9,17 +9,6 @@ Welcome to The Workshop Collaborative Document.
 
 This Document is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents.
 
-----------------------------------------------------------------------------
-
-This is the Document for today: [tinyurl.com/rpackaging-week4](https://hackmd.io/gDCDSNw9Q2ynqahKr_SzBA?both) 
-
-Collaborative Document week 1: [tinyurl.com/rpackaging-week1](https://hackmd.io/B_D159mIQSCxDUKO0ZdEKg?both)
-
-Collaborative Document week 2: [tinyurl.com/rpackaging-week2](https://hackmd.io/m5dLkEQtTr6rofVaLTDH6Q?both)
-
-Collaborative Document week 3: [tinyurl.com/rpackaging-week3](https://hackmd.io/hLOwyjUkQCek-L8Pk0zYyQ?both)
-
-Collaborative Document day 4: [tinyurl.com/rpackaging-week4](https://hackmd.io/gDCDSNw9Q2ynqahKr_SzBA?both) 
 
 
 ## 👮Code of Conduct
@@ -30,7 +19,7 @@ Participants are expected to follow these guidelines:
 * Gracefully accept constructive criticism.
 * Focus on what is best for the community.
 * Show courtesy and respect towards other community members.
- 
+
 ## ⚖️ License
 
 All content is publicly available under the [Creative Commons Attribution License 4.0](https://creativecommons.org/licenses/by/4.0/).
@@ -49,32 +38,13 @@ You can ask questions in the document or chat window and helpers will try to hel
 
 [post-workshop survey](https://www.surveymonkey.com/r/69VGKQM)
 
-SORRY GUYS!
-[Zoom link here!](https://us02web.zoom.us/j/86597861253?pwd=cVMvam1haXNnNWUwTFkydHlENktvQT09)
-
 ## 👩‍🏫👩‍💻🎓 Instructors
 
 Barbara Vreede, Lieke de Boer
 
 ## 🧑‍🙋 Helpers
 
-Eva Viviani, Pranav Chandramouli, Djura Smits, Ji Qi 
-
-## :ice_cream: Ice breaker
-
-What destination would you like to go to on your next (or perhaps bucket-listed...) trip?
-
-- Lieke: New Zealand! (Going in January)
-- Jessica: nothing planned, but would like to go to Croatia. And some day Japan
-- Barbara: Suriname (was there this summer, would really like to go back!)
-- Martine: Scotland
-- Bas: (after street-viewing New Zealand) New Zealand
-- Eva: Japan (Kyoto)
-- Kat : Norway
-- Anke: Too many options
-- Venustiano: Machu Pichu
-- Utkarsh: Iceland
-- Eric: New York this autumn, Japan (next year), Croatia (next summer)
+Eva Viviani, Pranav Chandramouli, Djura Smits, Ji Qi
 
 ## 🗓️ Agenda
 Day 4. Wed 5 October 2022
@@ -104,7 +74,7 @@ flowchart LR
     id3 --No--> id8(But can it be?)
     id8 --Yes, with some work --> id9(Document the process in data-raw/**)
     id8 --No, it shouldn't--> id7(Store it in inst/extdata)
-    
+
 ```
 
 `*`) `R/sysdata.Rda` is a file dedicated to (larger) data needed by your functions. [Read more about it here](https://r-pkgs.org/Data.html#sec-data-sysdata).
@@ -141,7 +111,7 @@ flowchart LR
 You can now call the dataset in this way:
 
 ``` r
-mysterycoffee::object_name 
+mysterycoffee::object_name
 ```
 
 You can also check its documentation by using `?`:
@@ -164,23 +134,6 @@ TIP2: be sure not to add the extension of the data file to your documentation. E
 ```
 Where `"object_name"` should NOT be `"object_name.rda"`
 
-SORRY GUYS!
-[Zoom link here!](https://us02web.zoom.us/j/86597861253?pwd=cVMvam1haXNnNWUwTFkydHlENktvQT09)
-
-Are you done?
-| Name | Check? |
-|:--|:--|
-| Anke | Yes |
-| Bas | Yes |
-| Eric | Yes |
-|Venus | Yes |
-| Jessica| Yes |
-| Kat | Yes |
-| Frank | Yes |
-| Joshua| Yes |
-| Martine | Yes|
-| Utkarsh | Yes|
-| Rodrigo | Yes|
 
 #### Exercise: add a vignette.
 - Use `usethis::use_vignette(vignette-name)` to create a vignette fit for your package.
@@ -191,43 +144,12 @@ Are you done?
 
 
 TIP! To look at your vignette:
-```r 
+```r
 remotes::install_local(build_vignettes = TRUE, force=TRUE)
 browseVignettes("package-name")
 ```
 You do not need to generate the HTML in your package. The .Rmd file is sufficient, when the package is built, it will generate the HTML file.
 
-
-Are you done?
-| Name    | Check? |
-|:--------|:------:|
-| Anke    |        |
-| Bas     |        |
-| Eric    |    Si  |
-| Venus   |        |
-| Jessica |   Yes     |
-| Kat     |   yes     |
-| Frank   |    Yes (issue below solved) install_local ends with error: "Warning: package ‘addOptics’ is in use and will not be installed"   You have to unload it first at the packages screen  detach(package:"addOptics", unload = TRUE) |
-| Joshua  | Yes       |
-| Martine |  Yes sort of, cannot find vignettes See tip above!! may help  *it did :)*    |
-| Utkarsh |     Yes   |
-| Rodrigo |      Yep  |
-
-
-TABLE FOR COPYING LATER - DO NOT EDIT
-| Name    | Check? |
-|:--------|:------:|
-| Anke    |        |
-| Bas     |        |
-| Eric    |        |
-| Venus   |        |
-| Jessica |        |
-| Kat     |        |
-| Frank   |        |
-| Joshua  |        |
-| Martine |        |
-| Utkarsh |        |
-| Rodrigo |        |
 
 
 ### Share your package (final exercise)
@@ -241,25 +163,7 @@ As the final exercise today, we will share the packages we created with each oth
 - Place the link to the package in the table below.
 - Find a package from another user, install it and run their example. Comment BELOW the table (otherwise it will become a mess).
 
-#### Packages
-| Name | Link to repository |
-|:--|:--|
-|Joshua |https://github.com/J-PTRson/Scifighter |
-| Jessica | https://github.com/jhrudey/testPackage|
-| Rodrigo | https://github.com/RdeBiotec/AbSolution |
-| Barbara | https://github.com/bvreede/mysterycoffee |
-| Bas | https://github.com/bwalraven/brainlink |
-| Anke | https://github.com/abruninx/cmoc |
-| Martine| https://github.com/MMJansen/prioRity
-| Utkarsh | https://github.com/utkarsh0493/colPal |
-| Frank | https://github.com/foost/addOptics |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
-| | |
+
 
 #### Comments from users
 
@@ -273,7 +177,7 @@ Different functionality implemented which is good.
 Install worked fine. README could use a bit more detail.
 
 ### Scifighter
-Really cool game :) Impressed by how you made this in such a short time. Massive pro is how clear and easy it is to install and play due to the vignette. 
+Really cool game :) Impressed by how you made this in such a short time. Massive pro is how clear and easy it is to install and play due to the vignette.
 
 Interesting package, a lot to look into. Vignettes/README provides very less information.
 
@@ -282,18 +186,18 @@ This was really entertaining. The only thing I experienced was the following whe
 These packages have more recent versions available.
 It is recommended to update all of them.
 Which would you like to update?
-Barbara: this is normal, as you install. You can choose to update dependencies that are already installed on your system, or leave them as is. Take a look at the version numbers to make this decision!
+: this is normal, as you install. You can choose to update dependencies that are already installed on your system, or leave them as is. Take a look at the version numbers to make this decision!
 
-Frank: I chose all and there were some errors in installing. Didn't affect the library itself though, nice game. 
+: I chose all and there were some errors in installing. Didn't affect the library itself though, nice game.
 
-Eric: Nice game, very entertaining, it crashed my R after 3 itterations though 
-Joshua: (suggestion: Try without the sound :) Beepr is a bit difficult.. 
+: Nice game, very entertaining, it crashed my R after 3 itterations though
+: (suggestion: Try without the sound :) Beepr is a bit difficult..
 
 ### testPackage
 Seems to work fine! I tested it using the testdata.pdf.
 temp <- emailPDFdf("./testdata.pdf") and was able to retrieve all email info.
 
-Nice package, 
+Nice package,
 
 ### cmoc
 Whoa, this looks official! Starting at the badges on the README, but in use this is also very cool!
@@ -305,37 +209,6 @@ All works as expected :)
 
 Installs nicely. Could use a bit more explanation in the vignette of what is happening
 
-```
-> devtools::install_github("foost/addOptics",build_vignettes = TRUE,force=TRUE)
-Downloading GitHub repo foost/addOptics@HEAD
-✔  checking for file ‘/tmp/RtmpSuddbl/remotes77f42f2030/foost-addOptics-46a0e0c/DESCRIPTION’ ...
-─  preparing ‘addOptics’:
-✔  checking DESCRIPTION meta-information ...
-─  installing the package to build vignettes
-E  creating vignettes (2.2s)
-   --- re-building ‘my-report.Rmd’ using rmarkdown
-   Quitting from lines 33-35 (my-report.Rmd) 
-   Error: processing vignette 'my-report.Rmd' failed with diagnostics:
-   there is no package called 'plyr'
-   --- failed re-building ‘my-report.Rmd’
-   
-   SUMMARY: processing the following file failed:
-     ‘my-report.Rmd’
-   
-   Error: Vignette re-building failed.
-   Execution halted
-Error: Failed to install 'addOptics' from GitHub:
-  ! System command 'R' failed
-```
-
-```
-> filepath <- system.file("extdata", "addOpticsExample.csv", package = "addOptics")
-> filepath
-[1] "/usr/local/lib/R/site-library/addOptics/extdata/addOpticsExample.csv"
-> opticsClusters <- OpticsXtractDBSCAN(filepath, 4, 5, 0.005, 5, 0.004)
-Error in OpticsXtractDBSCAN(filepath, 4, 5, 0.005, 5, 0.004) : 
-  could not find function "OpticsXtractDBSCAN"
-```
 
 
 ### ColPal
@@ -415,10 +288,10 @@ devtools::build_rmd("vignettes/my-report.Rmd")
 
 You can now browse your compiled vignette by typing:
 ``` r
-browseVignettes("mysterycoffee") 
+browseVignettes("mysterycoffee")
 ```
 
-TIP: if browseVignettes('yourpackagename') doesn't work, run: 
+TIP: if browseVignettes('yourpackagename') doesn't work, run:
 
 ``` r
 remotes::install_local(build_vignettes = TRUE, force = TRUE)
